@@ -1,0 +1,80 @@
+html, * {
+  box-sizing: border-box;
+}
+#header{
+    height:10%
+}
+#footer{
+    height:10%
+}
+body {
+  font: 1.8rem/1.56 sans-serif;
+  color: #444147;
+  margin: 0;
+  padding: 0 3.2rem 2.4rem;
+  background: hsl(54, 100%, 83%);
+}
+textarea {
+  display: block;
+  border-radius: 0.8em;
+  background: rgb(202, 202, 202);
+}
+#memo_list {
+height: 800px;
+  display: flex;
+  flex-wrap: wrap;
+  padding-top: 2rem;
+}
+
+.memo {
+  white-space:pre-line;
+  width: 12rem;
+  height: 10rem;
+  font-size: 1.4rem;
+  background: #fff;
+  border-radius: 0.4rem;
+  padding: 1.2rem 1.6rem;
+  margin: 2.4rem 2.4rem 0 0;
+  box-shadow: 0 0.9rem 1.2rem rgba(0,0,0, 0.1);
+  position: relative;
+}
+
+
+.delete {
+  position: absolute;
+  width: 2rem;
+  height: 2rem;
+  top: 0.2rem;
+  right: 0.2rem;
+  border-radius: 0.4rem;
+  color: #999;
+  text-align: center;
+}
+
+.memo_text {
+  height: 100%;
+  overflow-y: auto;
+}
+
+input {
+    border-radius: 2px;
+    height: 30px;
+    font-size: 15px;
+    padding: 2px;
+}
+button {
+    background-color: #555;
+    font-weight: bold;
+    height: 31px;
+    color: white;
+    width: 100px;
+    border-radius: 2px solid red;
+    text-transform: uppercase;
+    vertical-align: top;
+}
+.delete {
+    font-weight: bold;
+    padding: 2px 5px;
+    bottom: 0;
+    right: 0;
+}
